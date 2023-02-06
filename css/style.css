@@ -58,22 +58,17 @@ h1,h2,h3,h4,h5,h6,a,span{
 .hero-wraper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
     height:100%;
-  
-
 }
 .hero-section{
     background-color: var(--background-color);
     width: 100%;
     padding: 50px 0;
-    height: 120vh;
+    height: 100vh;
 }
-
 .hero-content{
     align-self: center;
 }
-
 .hero-content h6{
     color: var(--primary-color);
 }
@@ -98,7 +93,6 @@ h1,h2,h3,h4,h5,h6,a,span{
 .hero-content a:hover{
     background-color: #2fa8f3;
 }
-
 .hero-right-img img{
 
 max-width: 100%;
@@ -107,9 +101,10 @@ max-width: 100%;
 
 /*  exchange card css start */
 .Exchange-card{
+    padding:70px 0;
     background-color: var(--background-color);
     width: 100%;
-    height: 50vh;
+    height:50vh;
 }
 .exchange-wraper{
     display: grid;
@@ -119,7 +114,7 @@ max-width: 100%;
 .card{
     border-radius: 10px;
     width:100%;
-    height: 40vh;
+    height: 100%;
     background-color:#1e2258 ;
 }
 .card h4{
@@ -141,5 +136,66 @@ hr{
     color: rgb(162, 25, 25);
 }
 
-
 /*  exchange card css end  */
+
+/*  company css header start */
+.company-section {
+    background-color: var(--background-color);
+    width: 100%;
+    height: 130vh;
+}
+.company-wraper{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.company-section h3{
+    font-size: 3rem;
+    font-weight: 600;
+color: var(--white-collor);
+}
+.company-wraper img{
+    position: relative;
+    left: 25%; 
+}
+
+
+/* company css about start */
+.about-wraper{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+.about-left{}
+.about-left h6{
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+.about-left h2{
+
+    color: var(--white-collor);
+    font-size: 2.8rem;
+}
+.about-right p{
+    line-height: 20px;
+    color: var(--white-collor);
+}
+.about-right a{
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: var(--white-collor);
+    font-weight: 600;
+    background-color: var(--primary-color);
+    padding: 14px 40px ;
+}
+
+.about-right a:hover{
+    background-color: #2fa8f3;
+}
+
+
+
+/* company css about end  */
+/*  company css header end   */

@@ -29,51 +29,58 @@ text-align: center;
 /*  hero mobile  css end  */
 
 
-@media only screen and (max-width: 480px) {
-
-
 /*  exchange card css start */
+@media only screen and (max-width: 480px) {
 .Exchange-card{
+   
     padding: 50px 0;
-    background-color: var(--background-color);
     width: 100%;
     height: 136vh;
 }
 .exchange-wraper{
-    display: grid;
     grid-template-columns: 1fr ;
-    grid-gap: 1rem;
 }
 .card{
-   
-    border-radius: 10px;
-    width:300px;
+ 
+    width:100%;
     height: 30vh;
-    background-color:#1e2258 ;
 }
-.card h4{
-  margin-left: 20px;
-color: var(--white-collor);
 }
-.card p{
-    color: var(--white-collor);
-}
-hr{
-    color: var(--white-collor);
-}
-
-.ex h5{
-    font-size: 14px;
-    color: var(--white-collor);
-}
-.ex h6{
-    color: rgb(162, 25, 25);
-}
-
-
 /*  exchange card css end  */
 
-
+@media only screen and (max-width: 480px) {
+    /*  company css header start */
+.company-section {
+    height: 120vh;
+}
+.company-wraper{
+    grid-template-columns:1fr;
+    grid-gap: 3rem;
+}
+.company-section h3{
+    text-align: center;
+    font-size: 2rem;
+}
+/* company css about start */
+.about-wraper{
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+.company-wraper img{
+    position: relative;
+    left: 35%;
+   text-align: center;
+}
+.about-left{
+    text-align: center;
+}
+.about-right{
+    text-align: center;
+}
+.about-right p{
+    margin-bottom: 30px;
+}
+/* company css about end  */
 }
 
 /*  responsive cssend  */

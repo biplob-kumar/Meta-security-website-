@@ -51,7 +51,7 @@ text-align: center;
 @media only screen and (max-width: 480px) {
     /*  company css header start */
 .company-section {
-    height: 120vh;
+    height: 130vh;
 }
 .company-wraper{
     grid-template-columns:1fr;
